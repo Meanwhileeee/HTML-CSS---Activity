@@ -1,0 +1,15 @@
+html:
+- element html = ada tag pembuka + isi + tag penutup
+- syntax rules HTML = aturan main di html ada tanda <>...</>
+- tag html = ada tag pembuka dan ada isi tag (<p>, <button>, <h1>) dll
+- tulisannnya berurutan sesuai line. misal p atau h (p di line 1 berarti muncul di werbsitenya di atas h1)
+- a = membawa si customer ke new tab dan halaman baru (harus diikuti dengan href(sebagai sumber)
+- href sendiri setelah isi tag seperto <a href:""(tanda petik berartikan atribut value dimana memberitahu kita apa yang kita modifikasi. 
+(href ini adalah bagian dari element atau tag dan biassa disebut atribut yang berfungsi sebagai memodifikasi suatu element dengan adanya informasi tambahan dari sebuah element code yang kita buat.
+- atribut syntax rules harus spasi setelah tag baru bisa aktif
+-atribut target berfungsi berganti halaman dengan yang akan dituju hanya saja atribut ini tidak membuka halaman baru tapi hanaya memakai 1 halaman yang sama.
+- atribut target dapat diisi setelah atribut a dan jikalau mau mengaktifkan target bisa menambahkan target="" kalau mau menggunakan target dan mengubah status current pages ke new tab pages bisa ganti valuenya ke "_blank"
+- href dan target hanya dapat berfungsi pada element yang mengandung link
+- syntax rules html = html tidak berpengaruh pada penggunaan extra spasi ataupun enter(new lines) pada saat menulis code
+- penggunaan indent juga bagus adlam penulisan code = tag pembuka enter isi enter tag penutup. hal ini berfungsi agar dapat gampang dilihat dan tidak monoton.
+- <br/> berfungsi sebagai enter
