@@ -1,0 +1,26 @@
+CSS STRATEGY = membuat element html terlebih dahulu setelah itu baru modifikasi dengan css satu per satu
+- CSS berfungsi untuk mengubah tmapilan halaman HTML atau web kita
+- fitur css dapat digunakan di html dengan cara memasukan element atau tag berupa style sebagai pengganti css ayng sama dan dapat digunaklan di html
+- cara memodifikasi penggunaan css terhadap html adalah dengna mensummon tag yang digunakan di html itu sendiri agar dapat dimodifikasi lebih lanjut di element style contoh di html terdapat tag button yang dimodifikasi berarti di style kita summon button agar dapat dimodifiaksi lebih lanjut
+- css syntax rules = kata button adalah berupa css selector yang dimana hal tersebut membertiahu pc element mana pada halaman yang kita targetkan dengan css kita
+- didalam tanda kurung setelah menyebutkan target adalah adanya css property seperti contoh background-colour: red. hal tersebut berfungsi untuk memberitahu pc apa yang kita ubah disebelkah kanan titik dua. dan kata red setelah css property adalah css value yang dimana hal tersebut memberitahu pc apa yang kita ubah propertynya. dalam kasus ini, kami mengubah warna latar belakang properti menjadi merah. titik dua berfungsi sebagai pemisah antara css property dan value sedangan kan tanda ; merupakan tanda seperti tanda akhir atau tanda titik dalam kalimat css
+- colour = berfungsi sebagai mengubah warna text
+- border = berfunsi menghilangkan pembatas atau border pada suatu objek
+- height = mengubah ketinggian pada suatu objek menjadi tinggi ataupun pendek
+- px = merupakan piksel yang maksudnya adalah meruapkan suatu pengukuran yang sangat umum di dunia digital, ukuran gambar diatur piksel, ukuran video diatur piksel dan ukuran layar juga bergantung apda ukuran piksel
+-width = mengubah ukuran lebar kiri - kanan pada suatu objek
+- dalam mencari warna yang pas ada yang disebut dengna islitah colour picker yang dimana terdiri dari rgb dan 3 value 
+- maximal value dalam colour picker css adalah 255 dan minnimum adalah 0 tapi kalau dari 3 value diisi dengna nomor 255 maka akan jadi warna putih dan angka 0 menjadi hitam
+- border-radius = digunakan untuk mengubah ketajaman sudut dari suatu objek / semakin tinggi valuenya maka akan semakin tumpul (menggunkan satuan piksel)
+- cursor = digunakan untuk mengubah tampilan curson mouse kita ketika menyentuh suaut objek
+-Class = adalah atribut element html yang berfungsi sebagai penanda dan juga pemisah dari objek lain agar dapat gampang dimodifikasi di css dan memberitahukan kepada komputer apa yang sebenarya terjadi 
+- cara agar dapat mensummon class agar dapat dimodifkasi lebih lanjut adalah dengan memanggil label secara gampangnya atau teknisnya dengan memanggil value dari class contoh <button class: "subs">subscribe</button> berarti yang dapat di summon di css adalah dengan memanggil subs ditambahkan dengan tanda titik jadinya .subs
+- . = berfungsi sebagai mentargetkan nama class (bukan element seperti button, karena tanda . hanya bisa digunakan untuk class) yang ingin dimodifikasi
+- border-colour = berfungsi sebagai pengubah warna pada sudut suatu objek
+- border-style =  berfungsi sebagai memodifikasi suatu border atau sudut (dalam kasus ini warna pada border tidak 1 satu warna jadi saya menggunkan css value nya menjadi solid agar warna pada border menajdi satu kesatuan)
+- Border-width = berfungsi sebagai mengubah ketebalan pada suatu sudut pada objek (dalam satuan piksel)
+- dalam css kata space merujuk pada margin (yang berfunsi sama seperti space ada jarak diantara 1 objek dengna objek lainnya
+- cara menggunkan border-radius yang benar ketika menginginkan shape border pada suatu objek lebih bagus dan indah bulatnya adalah dengna melihat pikel terendah antara heigth atau widt seterusnya dibagi 2 misal height lebih rendah dari width dengan valuenya adlaah sebesar 10 px maka kalau amu terlihat indah bordernya maka isilah value border - radiusnya menjadi 0 
+- cara menggunakan border ataupun border - width yang benar adalah jika bordernya lebih dari 1 maka gunakanlah border widt, jika mau menghilangkan border sebaiknya tidak menggunakan border width melainkan gunakan border dan isi valuenya menjadi 0
+- font-weight = (bold) berfungsi untuk menebalkan suatu teks
+- font-size = berfungsi untuk membesarkan atau mengecilkan suatu teks (piksel)
